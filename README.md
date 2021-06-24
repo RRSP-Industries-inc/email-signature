@@ -5,4 +5,4 @@ Icons are retrieved from [flaticon](www.flaticon.com).
 
 ### Template 1
 
-![E-mail Signature Template 1](./email-signature-v1.png)
+![E-mail Signature Template 1](./email-signature-template-1.png)
