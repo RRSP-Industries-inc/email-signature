@@ -8,7 +8,13 @@
     <table
       cellpadding="0"
       cellspacing="0"
-      style="vertical-align: -webkit-baseline-middle; font-family: Arial"
+      style="
+        vertical-align: -webkit-baseline-middle;
+        font-family: Arial;
+        min-width: 320px;
+        width: 100%;
+        max-width: 640px;
+      "
     >
       <tbody>
         <tr>
@@ -23,14 +29,15 @@
             >
               <tbody>
                 <tr>
-                  <td width="46">
-                    <div></div>
-                  </td>
                   <td style="padding: 0px; vertical-align: middle">
-                    <table cellpadding="0" cellspacing="0">
+                    <table
+                      cellpadding="0"
+                      cellspacing="0"
+                      style="margin: 0px 0px 5px 0px"
+                    >
                       <tbody>
                         <tr>
-                          <td>
+                          <td style="vertical-align: baseline">
                             <h3
                               style="
                                 margin: 0px;
@@ -38,18 +45,18 @@
                                 color: rgb(38, 72, 96);
                               "
                             >
-                              <span>%%FirstName%% %%LastName%%,</span>
+                              %%FirstName%% %%LastName%%,
                             </h3>
                           </td>
-                          <td>
+                          <td style="vertical-align: baseline">
                             <p
                               style="
-                                margin: 0 0 0 5px;
+                                margin: 0px 0px 0px 10px;
                                 color: rgb(38, 72, 96);
                                 font-size: 16px;
                               "
                             >
-                              <span> %%Title%%</span>
+                              %%Title%%
                             </p>
                           </td>
                         </tr>
@@ -66,31 +73,30 @@
                     >
                       <tbody>
                         <tr>
-                          <td height="5"></td>
-                        </tr>
-                        <tr>
                           <td>
                             <table
                               cellpadding="0"
-                              cellspacing="5"
+                              cellspacing="0"
                               style="
                                 vertical-align: -webkit-baseline-middle;
                                 font-family: Arial;
                                 display: inline-block;
+                                margin-bottom: 5px;
                               "
                             >
                               <tbody>
                                 <tr style="text-align: left">
-                                  <td width="5">
+                                  <td>
                                     <div
                                       style="
                                         margin-left: 0px;
-                                        margin-right: 5px;
+                                        margin-right: 10px;
                                       "
                                     >
                                       <img
                                         src="https://github.com/RRSP-Industries-inc/email-signature/blob/master/logos/phone.png?raw=true"
                                         width="24px"
+                                        height="24px"
                                         alt="phone number"
                                       />
                                     </div>
@@ -100,9 +106,9 @@
                                       <a
                                         href="tel:%%MobileNumber%%"
                                         style="
-                                          text-decoration: none;
-                                          color: rgb(3, 156, 167);
-                                          font-weight: bold;
+                                          color: #235d86;
+                                          line-height: 24px;
+                                          font-size: 16px;
                                         "
                                         >%%MobileNumber%%</a
                                       >
@@ -110,16 +116,17 @@
                                   </td>
                                 </tr>
                                 <tr style="text-align: left">
-                                  <td width="5">
+                                  <td>
                                     <div
                                       style="
                                         margin-left: 0px;
-                                        margin-right: 5px;
+                                        margin-right: 10px;
                                       "
                                     >
                                       <img
                                         src="https://github.com/RRSP-Industries-inc/email-signature/blob/master/logos/email.png?raw=true"
                                         width="24px"
+                                        height="24px"
                                         alt="email address"
                                       />
                                     </div>
@@ -129,9 +136,9 @@
                                       <a
                                         href="mailto:%%Email%%"
                                         style="
-                                          text-decoration: none;
-                                          color: rgb(3, 156, 167);
-                                          font-weight: bold;
+                                          color: #235d86;
+                                          line-height: 24px;
+                                          font-size: 16px;
                                         "
                                         >%%Email%%</a
                                       >
@@ -143,118 +150,56 @@
                           </td>
                         </tr>
                         <tr>
-                          <td height="5"></td>
-                        </tr>
-                        <tr>
                           <td
                             height="1"
                             style="
                               border-bottom: 1px solid rgb(38, 72, 96);
                               border-left: none;
-                              display: block;
                             "
                           ></td>
                         </tr>
-                        <tr>
-                          <td height="5"></td>
-                        </tr>
                       </tbody>
                     </table>
-                    <table>
+                    <table
+                      cellpadding="0"
+                      cellspacing="0"
+                      style="margin-bottom: 5px"
+                    >
                       <tbody>
                         <tr>
-                          <td style="margin: 10px 0 15px 0">
-                            <img
-                              src="https://github.com/RRSP-Industries-inc/email-signature/blob/master/logos/rrsp_industries.png?raw=true"
-                              height="32px"
-                              style="margin: 10px 0 10px 0"
-                              alt="rrsp industries logo"
-                            />
-                          </td>
                           <td>
                             <img
-                              src="https://github.com/RRSP-Industries-inc/email-signature/blob/master/logos/rssp-hub.png?raw=true"
-                              height="32px"
-                              style="margin: 10px 0 15px 0"
-                              alt="rrsp hub logo"
+                              src="./logos/rrsp-industries-and-hub.png"
+                              style="
+                                margin: 10px 0 10px 0;
+                                width: 100%;
+                                max-width: 640px;
+                              "
+                              alt="RRSP Industries Logo"
                             />
                           </td>
                         </tr>
                         <tr>
-                          <td colspan="1">
+                          <td style="font-size: 16px">
                             <span>RRSP INDUSTRIES Inc.</span>
-                          </td>
-                          <td colspan="1">
-                            <span>New York City, USA</span>
+                            <span style="margin-left: 15px"
+                              >New York City, USA</span
+                            >
                           </td>
                         </tr>
                         <tr>
-                          <td colspan="1">
+                          <td style="font-size: 16px">
                             <a
                               href="mailto:office@rrspindustries.com"
-                              style="
-                                text-decoration: none;
-                                color: rgb(3, 156, 167);
-                                font-size: 16px;
-                                font-weight: bold;
-                              "
+                              style="color: #235d86"
                               >office@rrspindustries.com</a
-                            >
-                            <span>,</span>
-                          </td>
-                          <td colspan="1">
+                            >,
                             <a
                               href="https://www.rrspindustries.com"
                               target="_blank"
-                              style="
-                                text-decoration: none;
-                                font-size: 16px;
-                                color: rgb(3, 156, 167);
-                                font-weight: bold;
-                              "
+                              style="color: #235d86; margin-left: 15px"
                               >www.rrspindustries.com</a
                             >
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table>
-                      <tbody>
-                        <tr>
-                          <td height="5"></td>
-                        </tr>
-                        <tr>
-                          <td
-                            colspan="2"
-                            height="1"
-                            style="
-                              border-bottom: 1px solid rgb(38, 72, 96);
-                              border-left: none;
-                            "
-                          ></td>
-                        </tr>
-                        <tr>
-                          <td height="5"></td>
-                        </tr>
-                        <tr>
-                          <td
-                            style="width: 480px; font-size: 11px; color: gray"
-                          >
-                            This email and any files transmitted with it are
-                            confidential and intended solely for the use of the
-                            individual or entity to whom. If you have received
-                            this email in error, please notify the system
-                            manager. This message contains confidential
-                            information and is intended only for the individual
-                            named. If you are not the named addressee, you
-                            should not disseminate, distribute or copy this
-                            email. Please notify the sender immediately by email
-                            if you have received this email by mistake and
-                            delete this email from your system. If you are not
-                            the intended recipient, you are notified that
-                            disclosing, copying, distributing or taking any
-                            action in reliance on the contents of this
-                            information is strictly prohibited.
                           </td>
                         </tr>
                       </tbody>
